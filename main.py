@@ -21,7 +21,7 @@ class App(Tk):
     PANEL_FONT = ("Arial", 15)
     TEXT_FONT = ("Arial", 30)
 
-    def __init__(self, seconds: int = 10):
+    def __init__(self, seconds: int = 60):
         super().__init__()
         self.word = str()
         self.text = clean_sources()
